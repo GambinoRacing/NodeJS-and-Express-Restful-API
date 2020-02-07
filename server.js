@@ -12,11 +12,11 @@ var HTTP_PORT = 3000
 
 var pool = mysql.createPool({
   connectionLimit: 10,
-  host: '195.96.246.36',
-  user: 'apache',
-  port: '3307',
-  password: 'webpage',
-  database: 'aladin_surfex'
+  host: '',
+  user: '',
+  port: '',
+  password: '',
+  database: ''
 });
 
 var aladinModel = '';
